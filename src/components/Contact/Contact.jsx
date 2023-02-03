@@ -9,6 +9,7 @@ const Contact = () => {
     const sendMail = e => {
         e.preventDefault()
 
+        console.log(process.env)
         emailjs.sendForm(
             process.env.SERVICE_KEY,
             process.env.TEMPLATE_KEY,
