@@ -3,4 +3,24 @@
     max-height: 100vh;
     min-height: 100vh;
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 60%;
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

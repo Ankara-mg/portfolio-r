@@ -3,4 +3,59 @@
     max-height: 100vh;
     min-height: 100vh;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projBox {
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.projectImg {
+    width: 270px;
+    height: 170px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.projectTitle {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.projectDesc {
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.projBtn {
+    padding: 5px;
+    background-color: darkslategray;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rightSide{
+    position: relative;
 }
