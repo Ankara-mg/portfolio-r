@@ -7,11 +7,18 @@
     flex-direction: row;
 }
 
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
 .left {
     width: 60%;
     border: 1px solid black;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -23,4 +30,63 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(242, 206, 246);
+    width: 85%;
+}
+
+.formHalf {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.formHalf input {
+    padding: 10px;
+}
+
+.formTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.formMsg {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 99%;
+    height: 150px;
+}
+
+.formBtn {
+    width: 50%;
+    padding: 7px;
+}
+
+.formBtnContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 80%;
 }
