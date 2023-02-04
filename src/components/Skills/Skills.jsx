@@ -5,6 +5,7 @@ import data from "./data";
 const Skills = () => {
     return(
         <div className={style.skills}>
+            <h1>Habilidades Técnicas</h1>
             <div className={style.container}>
                 {
                     data.map(d => {

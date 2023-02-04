@@ -1,61 +1,108 @@
 .container {
     width: 100%;
-    max-height: 100vh;
     min-height: 100vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
+
+    padding-bottom: 60px;
+    border-bottom: 5px dotted #DE7340;
 }
 
-.pContainer {
+.container h1 {
+    margin: 50px;
+}
+
+.projectBox {
+    border: 1px solid #6D5246;
+    width: 70%;
+
+    min-height: 500px;
+    padding-bottom: 40px;
+    overflow: hidden;
+
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+
+.top {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top h2 {
+    font-size: 35px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55%;
+    padding: 30px 0;
+}
+
+.middle img {
+    width: 50%;
     height: 100%;
+    border-radius: 50%;
+    border: 1px dashed #6D5246;
+}
+
+.bottom {
+    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.projBox {
+.bottom span {
+    font-size: 22px;
+}
+
+.techsContainer {
     display: flex;
-    width: 80%;
-    border: 1px solid black;
-    margin: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.projectImg {
-    width: 270px;
-    height: 170px;
-    padding: 10px;
-    margin-right: 10px;
+.techs {
+    padding: 3px 7px;
+    border: 1px solid #6D5246;
+    font-size: 15px;
+    margin: 10px 15px;
 }
 
-.projectTitle {
-    padding: 10px;
-    font-size: 30px;
+.techs:hover {
+    background-color: #6D5246;
+    color: #FFF6F0;
 }
 
-.projectDesc {
-    padding: 10px;
-    margin-top: 4px;
+.btnContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .projBtn {
-    padding: 5px;
-    background-color: darkslategray;
-    border-radius: 2px;
+    padding: 10px 100px;
+    margin: 0px 40px;
+    font-size: 15px;
+    color: #FFF6F0;
+    background-color: #6D5246;
+    border-radius: 5px;
+}
+
+.projBtn:hover {
+    background-color: #DE7340;
     cursor: pointer;
-    margin: 10px;
-}
-
-.buttons {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.rightSide{
-    position: relative;
 }

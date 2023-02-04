@@ -5,6 +5,7 @@ import info from "./info";
 const About = () => {
     return(
         <div className={style.container}>
+            <h1>Sobre mí...</h1>
             <div className={style.aboutGrid}>
                 {
                     info.map(i => {

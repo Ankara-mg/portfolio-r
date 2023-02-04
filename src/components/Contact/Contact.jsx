@@ -51,16 +51,15 @@ const Contact = () => {
             </div>
 
             <div className={style.right}>
-                <h1 className={style.title}>Otras formas de contacto: </h1>
                 <div className={style.linksContainer}>
-                    <span>LinkedIn</span>
-                    <a href="https://www.linkedin.com/in/sol-rom%C3%A1n-9a4b55221/" target='_blank' rel="noopener noreferrer">Sol Román</a>
+                    <span className={style.linkLabel}>LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/sol-rom%C3%A1n-9a4b55221/" target='_blank' rel="noopener noreferrer" className={style.link}>Sol Román</a> <br />
 
-                    <span>Email</span>
-                    <a href="mailto: solroman44@gmail.com" target="_blank" rel="noopener noreferrer" >solroman44@gmail.com</a>
+                    <span className={style.linkLabel}>Email</span>
+                    <a href="mailto: solroman44@gmail.com" target="_blank" rel="noopener noreferrer" className={style.link}>solroman44@gmail.com</a> <br />
 
-                    <span>GitHub</span>
-                    <a href="https://github.com/Ankara-mg" target="_blank" rel="noopener noreferrer" >Ankara-mg</a>
+                    <span className={style.linkLabel}>GitHub</span>
+                    <a href="https://github.com/Ankara-mg" target="_blank" rel="noopener noreferrer" className={style.link} >Ankara-mg</a>
                 </div>
             </div>
         </div>

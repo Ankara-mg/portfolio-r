@@ -6,27 +6,40 @@ const Projects = () => {
     return (
         <div className={style.container}>
             <h1>Proyectos</h1> <br/>
-            <div className={style.pContainer}>
-                {
-                    data.map(d => {
-                        return(
-                            <div className={style.projBox} key={d.titulo}>
-                                <div>
-                                    <img src={d.img} alt={d.titulo} className={style.projectImg} />
+
+            {
+                data.map(d => {
+                    return(
+                        <div className={style.projectBox}>
+                            <div className={style.top}>
+                                <h2 className={style.projectTitle}>{d.titulo}</h2>
+                            </div>
+
+                            <div className={style.middle}>
+                                <img src={d.img} alt={d.titulo} />
+                            </div>
+
+                            <div className={style.bottom}>
+                                <span>Tecnologías Utilizadas</span>
+                                <div className={style.techsContainer}>
+                                    {
+                                        d.techs.map(t => {
+                                            return(
+                                                <div className={style.techs}>{t}</div>
+                                            )
+                                        })
+                                    }
                                 </div>
-                                <div className={style.rightSide}>
-                                    <div className={style.projectTitle}>{d.titulo}</div>
-                                    <div className={style.projectDesc}>{d.desc}</div>
-                                    <form className={style.buttons}>
-                                        <a href={d.deploy} target="_blank" rel="noopener noreferrer" className={style.projBtn}>Ver proyecto</a>
-                                        <a href={d.git} target="_blank" rel="noopener noreferrer" className={style.projBtn}>Ver código fuente</a>
-                                    </form>
+
+                                <div className={style.btnContainer}>
+                                    <a href={d.git} target="_blank" rel="noopener noreferrer" > <button className={style.projBtn}>Ver código fuente</button> </a>
+                                    <a href={d.deploy} target="_blank" rel="noopener noreferrer"> <button className={style.projBtn}>Ver proyecto</button> </a>
                                 </div>
                             </div>
-                        )
-                    })
-                }
-            </div>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }

@@ -1,7 +1,6 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    border: 1px solid black;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
@@ -9,9 +8,17 @@
 	grid-row-gap: 10px;
 }
 
-.techIcon {
-    width: 100px;
-    height: auto;
+.skills {
+	display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+
+    border-bottom: 5px dotted #DE7340;
+}
+
+.skills h1 {
+    margin: 50px;
 }
 
 .newSkill {
@@ -21,9 +28,9 @@
 }
 
 .newSkill img {
-	filter: grayscale();
-	width: 100px;
-	height: 100px;
+	filter: grayscale() sepia(0.5);
+	width: 80px;
+	height: 80px;
 	margin-bottom: 1rem;
 	margin-top: 2.5rem;
 	transition: filter 0.4s ease-in-out;
@@ -35,7 +42,7 @@
 
 .title {
 	font-size: 25px;
-	color: black;
+    color: #6D5246;
 	position: relative;
 }
 
@@ -44,7 +51,7 @@
 	content: "";
 	width: 0%;
 	height: 4px;
-	background-color: black;
+	background-color: #6D5246;
 	left: 50%;
 	bottom: -10px;
 	transition: all 0.4s ease-in-out;
