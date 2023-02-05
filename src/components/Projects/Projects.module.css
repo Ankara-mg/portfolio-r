@@ -12,6 +12,7 @@
 
 .container h1 {
     margin: 50px;
+	margin-top: 100px;
 }
 
 .projectBox {
@@ -100,6 +101,7 @@
     color: #FFF6F0;
     background-color: #6D5246;
     border-radius: 5px;
+    border: none;
 }
 
 .projBtn:hover {

@@ -3,7 +3,7 @@ import styles from './Landing.module.css';
 
 const Landing = () => {
     return (
-        <div className={styles.landingContainer}>
+        <div className={styles.landingContainer} id='home'>
             <div className={styles.left}>
                 <img src='/assets/images/landing-draw.png' alt='imagen' className={styles.image} />
             </div>

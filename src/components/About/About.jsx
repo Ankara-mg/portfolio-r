@@ -4,7 +4,7 @@ import info from "./info";
 
 const About = () => {
     return(
-        <div className={style.container}>
+        <div className={style.container} id='about'>
             <h1>Sobre mí...</h1>
             <div className={style.aboutGrid}>
                 {

@@ -76,6 +76,7 @@ textarea {
     color: #FFF6F0;
     background-color: #6D5246;
     border-radius: 5px;
+    border: none;
 }
 
 .formBtn:hover {
