@@ -11,29 +11,27 @@ const Projects = () => {
                 data.map(d => {
                     return(
                         <div className={style.projectBox}>
-                            <div className={style.top}>
-                                <h2 className={style.projectTitle}>{d.titulo}</h2>
+                            <div className={style.leftImg}>
+                                <img src={d.img} alt={d.titulo} className={style.proyImg} />
                             </div>
 
-                            <div className={style.middle}>
-                                <img src={d.img} alt={d.titulo} />
-                            </div>
+                            <div className={style.rightContainer}>
+                                <h2 className={style.titles}>{d.titulo}</h2>
+                                <p>{d.desc}</p>
 
-                            <div className={style.bottom}>
-                                <span>Tecnologías Utilizadas</span>
                                 <div className={style.techsContainer}>
                                     {
                                         d.techs.map(t => {
                                             return(
-                                                <div className={style.techs}>{t}</div>
+                                                <span className={style.techs}>{t}</span>
                                             )
                                         })
                                     }
                                 </div>
 
                                 <div className={style.btnContainer}>
-                                    <a href={d.git} target="_blank" rel="noopener noreferrer" > <button className={style.projBtn}>Ver código fuente</button> </a>
-                                    <a href={d.deploy} target="_blank" rel="noopener noreferrer"> <button className={style.projBtn}>Ver proyecto</button> </a>
+                                    <a href={d.git} target='_blank' rel="noopener noreferrer" className={style.projBtn} >Ver Código Fuente</a>
+                                    <a href={d.deploy}  target='_blank' rel="noopener noreferrer" className={style.projBtn} >Ver Proyecto</a>
                                 </div>
                             </div>
                         </div>
