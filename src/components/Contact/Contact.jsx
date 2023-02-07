@@ -33,16 +33,16 @@ const Contact = () => {
                     <div className={style.formTop}>
                         <div className={style.formHalf}>
                             <label>Nombre</label>
-                            <input type="text" name="user_name" />
+                            <input type="text" name="user_name" className={style.inputBox} />
                         </div>
                         <div className={style.formHalf}>
                             <label>Email</label>
-                            <input type="email" name="user_email" />
+                            <input type="email" name="user_email" className={style.inputBox} />
                         </div>
                     </div>
                     <div className={style.formMsg}>
                         <label>Mensaje</label>
-                        <textarea name="message" />
+                        <textarea name="message" className={style.inputBox} />
                     </div>
                     <div className={style.formBtnContainer}>
                         <input type="submit" value="ENVIAR" className={style.formBtn} />

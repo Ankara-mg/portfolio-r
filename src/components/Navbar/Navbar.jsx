@@ -31,16 +31,16 @@ const Navbar = () => {
                 <span>Contacto</span>
             </Link>
 
-            <Link to='#projects' smooth className={style.link}>
-                <span>Proyectos</span>
-            </Link>
-
             <Link to='#skills' smooth className={style.link}>
                 <span>Habilidades</span>
             </Link>
 
             <Link to='#about' smooth className={style.link}>
                 <span>Sobre mí</span>
+            </Link>
+            
+            <Link to='#projects' smooth className={style.link}>
+                <span>Proyectos</span>
             </Link>
 
             <Link to='#home' smooth className={style.link}>

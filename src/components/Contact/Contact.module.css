@@ -113,3 +113,16 @@ textarea {
 .link:hover{
     color: burlywood;
 }
+
+.inputBox {
+    border: 1px solid #6D5246;
+}
+
+.inputBox:hover{
+    border: 1px solid #DE7340;
+}
+
+.inputBox:focus {
+    border: 3px solid #DE7340;
+    outline: none;
+}

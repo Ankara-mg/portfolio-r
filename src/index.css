@@ -21,3 +21,20 @@ code {
 ::selection {
   background: #f6ad8b;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f6ad8b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DE7340;
+}
