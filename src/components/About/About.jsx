@@ -11,7 +11,20 @@ const About = () => {
                     info.map(i => {
                         return(
                             <div className={style.aboutSection} key={i.key}>
-                                <img src={i.icon} alt="icon" className={style.aboutIcon} />
+                                {
+                                    i.key === 4 ?
+                                    <div className={style.bubbleCont}>
+                                        <div className={style.bubbleCont2}>
+                                            <img src={i.icon} alt="icon" className={style.aboutIcon} />
+                                            <div className={`${style.bubble} ${style.bubblePosition} ${style.hoverBubble}`}>
+                                                Dato secreto: El nombre real de la loca de los gatos es Eleanor Abernathy. Estudió medicina y abogacía antes de obsesionarse con el alcohol y coleccionar gatos. ¡Quién lo diría!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    :
+                                    <img src={i.icon} alt="icon" className={style.aboutIcon} />
+                                }
+                                <h3 className={style.aboutTitle}>{i.title}</h3>
                                 <span>{i.text}</span>
                             </div>
                         )

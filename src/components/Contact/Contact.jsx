@@ -16,11 +16,11 @@ const Contact = () => {
             'oyqXx2UTi0X9Vl6m1'
         ).then(
             () => {
-                alert('enviado');
+                alert('¡Mensaje enviado con éxito!');
                 window.location.reload(false)
             },
             () => {
-                alert('fallo')
+                alert('Ha habido un fallo al enviar el mensaje, por favor inténtelo más tarde.')
             }
         )
     }
