@@ -21,7 +21,7 @@ const Landing = () => {
                     <a href="https://github.com/Ankara-mg" target="_blank" rel="noopener noreferrer" className={styles.link}>
                         <img src="/assets/images/github-icon.svg" alt="GitHub" className={styles.icon} />
                     </a>
-                    <a href="https://drive.google.com/u/0/uc?id=1ssZYblKce9tm5pX5EOZTp_dgzn6s52Z9&export=download" className={styles.link} >
+                    <a href="https://drive.google.com/u/0/uc?id=1YqSukOM5h7udZoK8wxmh6pFJ2LtO31CC&export=download" target="_blank" rel="noopener noreferrer" className={styles.link} >
                         <img src="/assets/images/cv-icon.svg" alt="CV" className={styles.icon} />
                     </a>
                 </div>
