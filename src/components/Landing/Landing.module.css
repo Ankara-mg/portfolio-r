@@ -17,7 +17,7 @@
 
     color: #FFF6F0;
     font-family: 'IndieFlower';
-    font-size: 70px;
+    font-size: 36px;
 }
 
 @keyframes gradient {
@@ -33,14 +33,27 @@
 }
 
 .name {
-    font-size: 80px;
+    font-size: 36px;
     font-weight: bolder;
 }
 
 .right {
-    width: 50%;
     height: 100%;
-    margin: 10px;
+    margin: 0px 100px 0px 50px;
+}
+
+.rightB {
+    border-top: 2px solid #FFF6F0;
+}
+
+.rightM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rightT {
+    border-bottom: 2px solid #FFF6F0;
 }
 
 .left {
@@ -52,7 +65,49 @@
     margin-right: 50px;
 }
 
+.bottom {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
 .image {
-    width: 500px;
+    width: 70%;
+    height: 70%;
+}
+
+.icon, .iconArrow {
+    width: 40px;
     height: auto;
+    filter: brightness(0);
+}
+
+.link {
+    margin-bottom: -20px;
+}
+
+
+.icon:hover, .iconArrow:hover{
+    filter: brightness(0) invert(1);
+}
+
+.icon {
+    margin: 10px 20px;
+}
+
+.iconArrow {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+    margin-top: 20px;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }

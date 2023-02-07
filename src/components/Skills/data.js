@@ -44,7 +44,7 @@ const data = [
         "name": "Sequelize"
     },
     {
-        "icon": "https://git-scm.com/images/logos/logomark-orange.png",
+        "icon": "/assets/images/git.png",
         "name": "Git"
     }
 ]
