@@ -33,3 +33,14 @@
     transition: 0.3s linear;
 }
 
+@media (max-width: 768px){
+    .navShow {
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    .link {
+        font-size: 26px;
+    }
+}

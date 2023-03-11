@@ -21,7 +21,8 @@
     display: flex;
     flex-direction: row;
 
-    max-height: 250px;
+    max-height: 290px;
+    height: 250px;
     overflow: hidden;
 
     margin-bottom: 60px;
@@ -107,4 +108,29 @@
 .projBtn:hover {
     background-color: #DE7340;
     cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .proyImg {
+        display: none;
+    }
+
+    .leftImg{
+        display: none;
+    }
+
+    .projectBox, .rightContainer{
+        width: 99%;
+        height: auto;
+        max-height: 500px;
+        overflow: auto;
+    }
+
+    .techsContainer {
+        margin-bottom: 20px;
+    }
+
+    .btnContainer{
+        margin-bottom: 10px;
+    }
 }

@@ -63,3 +63,19 @@
 	width: 100%;
 	left: 0;
 }
+
+@media (max-width: 600px){
+	.container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+
+	.newSkill img {
+		width: 60px;
+		height: auto;
+	}
+
+	.title {
+		font-size: 16px;
+	}
+}

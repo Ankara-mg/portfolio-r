@@ -8,6 +8,7 @@
     justify-content: top;
 
     border-bottom: 5px dotted #DE7340;
+
 }
 
 .container h1 {
@@ -105,4 +106,34 @@
     -ms-transition: all 0.25s;
     -o-transition: all 0.25s;
     transition: all 0.25s;
+}
+
+@media (max-width: 657px){
+    .aboutSection {
+        width: 100%;
+        height: fit-content;
+        margin: 10px;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 1366px) and (min-width: 890px) {
+    .aboutGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+        margin-right: -10%;
+    }
+
+    .aboutSection{
+        margin: 30px 50px;
+        width: 60%;
+        height: 70%;
+        padding-bottom: 30px;
+    }
 }

@@ -8,9 +8,9 @@ const Projects = () => {
             <h1>Proyectos</h1> <br/>
 
             {
-                data.map(d => {
+                data.map((d, key) => {
                     return(
-                        <div className={style.projectBox}>
+                        <div className={style.projectBox} key={key}>
                             <div className={style.leftImg}>
                                 <img src={d.img} alt={d.titulo} className={style.proyImg} />
                             </div>
