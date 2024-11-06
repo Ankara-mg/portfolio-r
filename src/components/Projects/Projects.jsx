@@ -23,7 +23,7 @@ const Projects = () => {
                                     {
                                         d.techs.map(t => {
                                             return(
-                                                <span className={style.techs}>{t}</span>
+                                                <span className={style.techs} key={t}>{t}</span>
                                             )
                                         })
                                     }

@@ -1,141 +1,155 @@
 @font-face {
-    font-family: 'IndieFlower';
-    src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf');
+  font-family: 'IndieFlower';
+  src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf');
 }
 
 .landingContainer {
-    width: 100%;
-    max-height: 100vh;
-    min-height: 100vh;
-    background: linear-gradient(-45deg, #6D5246, #55433B, #402E32, #BDA79D);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  max-height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #6D5246, #55433B, #402E32, #BDA79D);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-    color: #FFF6F0;
-    font-family: 'IndieFlower';
-    font-size: 36px;
+  color: #FFF6F0;
+  font-family: 'IndieFlower';
+  font-size: 36px;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .name {
-    font-size: 36px;
-    font-weight: bolder;
+  font-size: 36px;
+  font-weight: bolder;
 }
 
 .right {
-    height: 100%;
-    margin: 0px 100px 0px 50px;
+  height: 100%;
+  margin: 0px 100px 0px 50px;
 }
 
 .rightB {
-    border-top: 2px solid #FFF6F0;
+  border-top: 2px solid #FFF6F0;
 }
 
 .rightM {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .rightT {
-    border-bottom: 2px solid #FFF6F0;
+  border-bottom: 2px solid #FFF6F0;
 }
 
 .left {
-    width: 50%;
-    height: 100%;
-    margin: 10px;
-    display: flex;
-    justify-content: right;
-    margin-right: 50px;
+  width: 50%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
 }
 
 .bottom {
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    font-size: 26px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
 }
 
 .image {
-    width: 70%;
-    height: 70%;
+  width: 70%;
+  height: 70%;
 }
 
-.icon, .iconArrow {
-    width: 40px;
-    height: auto;
-    filter: brightness(0);
+.icon,
+.iconArrow {
+  width: 40px;
+  height: auto;
+  filter: brightness(0);
 }
 
 .link {
-    margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 
 
-.icon:hover, .iconArrow:hover{
-    filter: brightness(0) invert(1);
+.icon:hover,
+.iconArrow:hover {
+  filter: brightness(0) invert(1);
 }
 
 .icon {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
 
 .iconArrow {
-    -webkit-animation: mover 2s infinite  alternate;
-    animation: mover 2s infinite  alternate;
-    margin-top: 20px;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+  margin-top: 20px;
 }
 
 @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @media (max-width: 768px) {
-    .landingContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .landingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .right{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding-top: 10px;
-        text-align: center;
-    }
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
 
-    .left{
-        padding: 0;
-        margin: 0;
-        width: 400px;
-        height: auto;
-        justify-content: center;
-    }
+  .left {
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+  }
 
 }

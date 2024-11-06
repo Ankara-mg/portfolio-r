@@ -1,0 +1,13 @@
+{
+  "videogames": {
+    "title": "Aplicación de videojuegos",
+    "description": "Aplicación web para explorar videojuegos utilizando la API RAWG.io. Los usuarios pueden ver, ordenar y filtrar una lista de juegos, así como agregar nuevos títulos a la base de datos."
+  },
+  "ecomics": {
+    "title": "E-commerce de cómics",
+    "description": "E-commerce especializado en la venta de cómics, con carrito de compras, pagos con tarjeta, registro y login de usuarios, panel de administración y sistema de reseñas para usuarios registrados."
+  },
+  "web": "Ver Proyecto",
+  "source": "Ver Código Fuente",
+  "pageTitle": "Proyectos"
+}

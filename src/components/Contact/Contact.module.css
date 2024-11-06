@@ -1,168 +1,167 @@
 .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
 }
 
 .title {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 70px;
-    margin-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 70px;
+  margin-top: 100px;
 }
 
 .left {
-    width: 65%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .right {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .contForm {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    padding-bottom: 25px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 50px #DFE0DF;
-    width: 85%;
-    margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px #DFE0DF;
+  width: 85%;
+  margin-left: 60px;
 }
 
 .formHalf {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    margin-bottom: 5px;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 5px;
+  width: 50%;
 }
 
 .formHalf input {
-    padding: 10px;
+  padding: 10px;
 }
 
 .formTop {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .formMsg {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 20px;
 }
 
 textarea {
-    resize: none;
-    width: 99%;
-    height: 150px;
+  resize: none;
+  width: 99%;
+  height: 150px;
 }
 
 .formBtn {
-    width: 50%;
-    padding: 7px;
-    color: #FFF6F0;
-    background-color: #6D5246;
-    border-radius: 5px;
-    border: none;
+  width: 50%;
+  padding: 7px;
+  color: #FFF6F0;
+  background-color: #6D5246;
+  border-radius: 5px;
+  border: none;
 }
 
 .formBtn:hover {
-    background-color: #DE7340;
-    cursor: pointer;
+  background-color: #DE7340;
+  cursor: pointer;
 }
 
 .formBtnContainer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .linksContainer {
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    width: 85%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 85%;
 }
 
 .linkLabel {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: burlywood;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: burlywood;
 }
 
 .link {
-    color: brown;
+  color: brown;
 }
 
-.link:hover{
-    color: burlywood;
+.link:hover {
+  color: burlywood;
 }
 
 .inputBox {
-    border: 1px solid #6D5246;
+  border: 1px solid #6D5246;
 }
 
-.inputBox:hover{
-    border: 1px solid #DE7340;
+.inputBox:hover {
+  border: 1px solid #DE7340;
 }
 
 .inputBox:focus {
-    border: 3px solid #DE7340;
-    outline: none;
+  border: 3px solid #DE7340;
+  outline: none;
 }
 
 
 
-@media (max-width: 768px){
-    .container{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .formTop{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 
-    .formHalf {
-        width: 96%;
-    }
+  .formTop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .left{
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
+  .formHalf {
+    width: 96%;
+  }
 
-    .contForm{
-        margin: 0;
-    }
-    
-    .linksContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .contForm {
+    margin: 0;
+  }
+
+  .linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media (max-width: 480px){
-}
+@media (max-width: 480px) {}

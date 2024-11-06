@@ -1,0 +1,11 @@
+{
+  "title": "Send me a message",
+  "name": "Name",
+  "email": "Contact email",
+  "message": "Message",
+  "successTitle": "Thank you for your message!",
+  "successMessage": "I have successfully received your mail message and will get back to you shortly.",
+  "failTitle": "There was an error sending your message",
+  "failMessage": "If you'd like, you can try again later or contact me via email or social media. \n Thank you for your patience.",
+  "send": "SEND"
+}

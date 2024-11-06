@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.flagBtn {
+  border: none;
+  background: none;
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.selected {
+  opacity: 1;
+}
+
+.flagBtn:hover {
+  opacity: 1;
+}

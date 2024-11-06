@@ -1,0 +1,11 @@
+{
+  "title": "Envíame un mensaje",
+  "name": "Nombre",
+  "email": "Mail de contacto",
+  "message": "Mensaje",
+  "successTitle": "¡Gracias por tu mensaje!",
+  "successMessage": "He recibido tu correo correctamente y me aseguraré de responder a la brevedad.",
+  "failTitle": "Hubo un error al enviar el mensaje",
+  "failMessage": "Si deseas, puedes intentar nuevamente más tarde o comunicarte conmigo a través de mi correo electrónico o mis redes sociales. \n Gracias por tu paciencia.",
+  "send": "ENVIAR"
+}

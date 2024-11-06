@@ -1,0 +1,22 @@
+{
+  "title": "About me...",
+  "easterEgg": "Fun fact: The 'crazy cat lady' from The Simpsons is actually named Eleanor Abernathy. She's a former lawyer and doctor who developed a fascination with cats. Sometimes life takes us down unexpected paths!",
+  "about": [
+    {
+      "title": "Agility in Detecting and Solving Problems",
+      "text": "I can quickly identify and resolve technical issues, applying a logical approach to find solutions without losing momentum. This allows me to overcome obstacles efficiently and keep the project moving forward."
+    },
+    {
+      "title": "Ability to Learn and Adapt Quickly",
+      "text": "I am able to learn and adapt quickly to new technologies as needed for the project. This flexibility allows me to stay on track and apply the most suitable tools to solve challenges effectively."
+    },
+    {
+      "title": "Calm and Organized Approach",
+      "text": "I thrive in organized environments where I can focus and think clearly. I prefer a steady pace that enables me to process information logically and make thoughtful decisions, ensuring my work is both thorough and of high quality."
+    },
+    {
+      "title": "Cat Lady",
+      "text": "I am an animal lover, especially cats. Some of my friends even call me 'the cat lady,' as I'm always sharing pictures of my pet. I believe that having a balanced life and enjoying things outside of work is key to being more productive and creative in what I do."
+    }
+  ]
+}

@@ -5,8 +5,10 @@ import Landing from "./components/Landing/Landing";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
-
+import { configDotenv } from "dotenv";
 function App() {
+  console.log(process.env);
+  
   return (
     <div>
       <Navbar />

@@ -1,0 +1,22 @@
+{
+  "title": "Sobre mí...",
+  "easterEgg": "Dato curioso: La \"loca de los gatos\" de Los Simpson en realidad se llama Eleanor Abernathy. Es una ex abogada y médica que desarrolló una fascinación por los gatos. ¡A veces la vida nos lleva por caminos inesperados!",
+  "about": [
+    {
+      "title": "Agilidad para Detectar y Solucionar Problemas",
+      "text": "Puedo identificar y resolver rápidamente problemas técnicos, aplicando un enfoque lógico para encontrar soluciones sin perder impulso. Esto me permite superar obstáculos de manera eficiente y mantener el proyecto en movimiento."
+    },
+    {
+      "title": "Capacidad para Aprender y Adaptarme Rápidamente",
+      "text": "Soy capaz de aprender y adaptarme rápidamente a nuevas tecnologías según sea necesario para el proyecto. Esta flexibilidad me permite mantenerme en el camino correcto y aplicar las herramientas más adecuadas para resolver los desafíos de manera efectiva."
+    },
+    {
+      "title": "Enfoque Tranquilo y Organizado",
+      "text": "Me desenvuelvo bien en entornos organizados donde puedo concentrarme y pensar con claridad. Prefiero un ritmo constante que me permita procesar la información de manera lógica y tomar decisiones cuidadosas, asegurando que mi trabajo sea tanto completo como de calidad."
+    },
+    {
+      "title": "Señora de los gatos",
+      "text": "Soy un amante de los animales, especialmente los gatos. Algunos de mis amigos incluso me llaman 'la señora de los gatos', ya que siempre estoy compartiendo fotos de mi mascota. Creo que tener una vida equilibrada y disfrutar de cosas fuera del trabajo también es clave para ser más productiva y creativa en lo que hago."
+    }
+  ]
+}
