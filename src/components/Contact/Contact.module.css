@@ -81,6 +81,15 @@ textarea {
   border: none;
 }
 
+.formBtn:disabled {
+  opacity: 0.5;
+}
+
+.formBtn:disabled:hover {
+  cursor: not-allowed;
+  background-color: #6D5246;
+}
+
 .formBtn:hover {
   background-color: #DE7340;
   cursor: pointer;

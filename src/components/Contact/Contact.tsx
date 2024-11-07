@@ -9,11 +9,13 @@ const Contact = () => {
   const { t } = useTranslation('contact');
   const [showSuccess, setShowSuccess] = useState<boolean>(false);
   const [showFail, setShowFail] = useState<boolean>(false);
+  const [disableBtn, setDisableBtn] = useState<boolean>(false);
 
   const refForm = useRef<HTMLFormElement | null>(null)
 
   const sendMail = (e: FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
+    setDisableBtn(true);
 
     emailjs.sendForm(VITE_SERVICE_ID, VITE_TEMPLATE_ID, refForm.current!, VITE_USER_ID)
       .then(
@@ -22,9 +24,14 @@ const Contact = () => {
       )
   }
 
-  const closeModal = () => {
+  const closeModalSuccess = () => {
     setShowSuccess(false);
     window.location.reload();
+  }
+
+  const closeModalFail = () => {
+    setShowFail(false);
+    setDisableBtn(false);
   }
 
   return (
@@ -47,7 +54,7 @@ const Contact = () => {
             <textarea required name="message" className={style.inputBox} />
           </div>
           <div className={style.formBtnContainer}>
-            <input type="submit" value={t('send')} className={style.formBtn} />
+            <input type="submit" value={t('send')} className={style.formBtn} disabled={disableBtn} />
           </div>
         </form>
       </div>
@@ -65,12 +72,12 @@ const Contact = () => {
         </div>
       </div>
 
-      <Modal isOpen={showSuccess} onClose={closeModal}>
+      <Modal isOpen={showSuccess} onClose={closeModalSuccess}>
         <h2>{t('successTitle')}</h2>
         <p>{t('successMessage')}</p>
       </Modal>
 
-      <Modal isOpen={showFail} onClose={() => setShowFail(false)}>
+      <Modal isOpen={showFail} onClose={closeModalFail}>
         <h2>{t('failTitle')}</h2>
         <p>{t('failMessage')}</p>
       </Modal>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'IndieFlower';
-  src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf');
+  src: url('/assets/fonts/IndieFlower-Regular.ttf');
 }
 
 .landingContainer {
