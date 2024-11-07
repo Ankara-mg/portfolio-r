@@ -1,0 +1,33 @@
+{
+  "pageTitle": "Mi Trayectoria",
+  "experiencesTitle": "Experiencia profesional",
+  "studiesTitle": "Estudios",
+  "educar": {
+    "type": "Experiencia Laboral",
+    "position": "Desarrollo Fullstack",
+    "company": "Educ.ar Sociedad del Estado",
+    "date": "Abril 2023 - Actualidad",
+    "description": "descripcion educar"
+  },
+  "henryta": {
+    "type": "Práctica",
+    "position": "Teaching Assistant",
+    "company": "SoyHenry",
+    "date": "Julio 2022 - Agosto 2022",
+    "description": "descripcion henry"
+  },
+  "unlam": {
+    "type": "Carrera",
+    "name": "Ingeniería en Informática",
+    "institute": "Universidad Nacional de La Matanza",
+    "date": "2016 - Actualidad",
+    "description": "descripcion unlam"
+  },
+  "henry": {
+    "type": "Bootcamp",
+    "name": "Desarrollo Web",
+    "institute": "SoyHenry Bootcamp",
+    "date": "Mayo 2022 - Septiembre 2022",
+    "description": "descripcion henry bootcamp"
+  }
+}

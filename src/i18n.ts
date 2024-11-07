@@ -4,14 +4,14 @@ import { initReactI18next } from 'react-i18next';
 
 i18n
   .use(i18nextHttpBackend)
-  .use(initReactI18next)  
+  .use(initReactI18next)
   .init({
     lng: 'es',
     fallbackLng: 'es',
-     defaultNS: 'navbar',
-     backend: {
-       loadPath: '/locales/{{lng}}/{{ns}}.json',
-     },
+    defaultNS: 'navbar',
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    },
     interpolation: {
       escapeValue: false,
     },

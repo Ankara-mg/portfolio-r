@@ -111,20 +111,18 @@
 }
 
 @media (max-width: 768px) {
-  .proyImg {
-    display: none;
-  }
-
   .leftImg {
-    display: none;
+    width: 100%;
   }
 
   .projectBox,
   .rightContainer {
     width: 99%;
     height: auto;
-    max-height: 500px;
+    max-height: 700px;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
   }
 
   .techsContainer {

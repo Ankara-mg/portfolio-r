@@ -40,12 +40,16 @@ const Navbar = () => {
             <span>{t('home')}</span>
           </Link>
 
-          <Link to='#projects' smooth className={style.link}>
-            <span>{t('projects')}</span>
-          </Link>
-
           <Link to='#about' smooth className={style.link}>
             <span>{t('about')}</span>
+          </Link>
+
+          <Link to='#experience' smooth className={style.link}>
+            <span>{t('experience')}</span>
+          </Link>
+
+          <Link to='#projects' smooth className={style.link}>
+            <span>{t('projects')}</span>
           </Link>
 
           <Link to='#skills' smooth className={style.link}>

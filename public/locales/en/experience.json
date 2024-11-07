@@ -1,0 +1,33 @@
+{
+  "pageTitle": "My Background",
+  "experiencesTitle": "Work experience",
+  "studiesTitle": "Studies",
+  "educar": {
+    "type": "Job experience",
+    "position": "Fullstack Developer",
+    "company": "Educ.ar Sociedad del Estado",
+    "date": "April 2023 - Present",
+    "description": "description en ingles educar"
+  },
+  "henryta": {
+    "type": "Internship",
+    "position": "Teaching Assistant",
+    "company": "SoyHenry",
+    "date": "July 2022 - August 2022",
+    "description": "description en ingles henry"
+  },
+  "unlam": {
+    "type": "Carreer",
+    "name": "Computer Engineering",
+    "institute": "La Matanza National University",
+    "date": "2016 - Present",
+    "description": "description en ingles unlam"
+  },
+  "henry": {
+    "type": "Bootcamp",
+    "name": "Fullstack Web Development",
+    "institute": "SoyHenry Bootcamp",
+    "date": "May 2022 - September 2022",
+    "description": "description en ingles bootcamp"
+  }
+}

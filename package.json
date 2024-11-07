@@ -14,6 +14,7 @@
     "@types/i18next": "^12.1.0",
     "@types/react-i18next": "^7.8.3",
     "dotenv": "^16.4.5",
+    "html-react-parser": "^5.1.18",
     "i18next": "^23.16.4",
     "i18next-http-backend": "^2.6.2",
     "react": "^18.3.1",
