@@ -132,10 +132,10 @@ textarea {
 }
 
 .inputBox:focus {
-  border: 3px solid #DE7340;
+  border: 1px solid #DE7340;
   outline: none;
+  box-shadow: 0 0 0 3px #DE7340;
 }
-
 
 
 @media (max-width: 768px) {

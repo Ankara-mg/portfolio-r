@@ -6,9 +6,6 @@ const LanguageSwitch: React.FC = () => {
 
   const handleChangeLanguage = (lng: string) => {
     i18n.changeLanguage(lng)
-      .then(() => {
-        console.log(`Idioma cambiado a: ${lng}`);
-      })
       .catch((error) => {
         console.error('Error al cambiar el idioma:', error);
       });

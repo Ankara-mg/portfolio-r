@@ -34,6 +34,22 @@
   }
 }
 
+.languageContainer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+}
+
+.languageLabel {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.languageSwitch {
+  margin-top: 5px;
+}
+
 .name {
   font-size: 36px;
   font-weight: bolder;

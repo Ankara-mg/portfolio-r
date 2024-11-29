@@ -7,27 +7,27 @@
     "position": "Fullstack Developer",
     "company": "Educ.ar Sociedad del Estado",
     "date": "April 2023 - Present",
-    "description": "description en ingles educar"
+    "description": "Contributed to web and Android development projects, collaborating with a small, agile team to build and maintain applications. Resolved technical issues and adapted to new technologies and best practices."
   },
   "henryta": {
     "type": "Internship",
     "position": "Teaching Assistant",
     "company": "SoyHenry",
     "date": "July 2022 - August 2022",
-    "description": "description en ingles henry"
+    "description": "Assisted new students in integrating into the study group and guided them through their initial coursework. Coordinated with the team to support their integration, helped resolve exercises, and encouraged collaboration to foster a positive learning environment."
   },
   "unlam": {
     "type": "Carreer",
     "name": "Computer Engineering",
     "institute": "La Matanza National University",
     "date": "2016 - Present",
-    "description": "description en ingles unlam"
+    "description": "Completed subjects in mathematics, physics, chemistry, and programming in C/C++ and Java. Gained practical experience using AutoCAD for technical drawing and problem-solving. Developed strong analytical skills and the ability to collaborate effectively on projects."
   },
   "henry": {
     "type": "Bootcamp",
     "name": "Fullstack Web Development",
     "institute": "SoyHenry Bootcamp",
     "date": "May 2022 - September 2022",
-    "description": "description en ingles bootcamp"
+    "description": "Completed a Full-Stack Development bootcamp using the PERN stack (PostgreSQL, Express.js, React, Node.js), with two final projects (individual and group) focused on building web applications. Gained experience in front-end and back-end development, API integration, and database management."
   }
 }

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { HashLink as Link } from "react-router-hash-link";
+import LanguageSwitch from '../LanguageSwitch/LanguageSwitch';
 import styles from './Landing.module.css';
 
 const Landing = () => {
@@ -7,6 +8,11 @@ const Landing = () => {
 
   return (
     <div className={styles.landingContainer} id='home'>
+      <div className={styles.languageContainer}>
+        <span className={styles.languageLabel}>{t('language')}</span>
+        <div className={styles.languageSwitch}><LanguageSwitch /></div>
+      </div>
+
       <div className={styles.left}>
         <img src='/assets/images/landing-draw.png' alt='imagen' className={styles.image} />
       </div>

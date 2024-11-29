@@ -5,7 +5,6 @@ import info from "./info";
 const About = () => {
   const { t } = useTranslation('about');
 
-  console.log(`about[${0}].title`)
   return (
     <div className={style.container} id='about'>
       <h1>{t('title')}</h1>

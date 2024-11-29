@@ -1,8 +1,5 @@
 .background {
   padding: 40px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding-bottom: 60px;
   border-bottom: 5px dotted #DE7340;
 }
@@ -15,10 +12,10 @@
 }
 
 .section {
-  background-color: #fff;
+  background-color: #F9F0E6;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px #6D5246;
 }
 
 .titleSection {
@@ -35,16 +32,16 @@
 }
 
 .item {
-  background-color: #ffffff;
+  background-color: #F9F0E6;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 10px #6d52461a;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .item:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 15px #6D5246;
 }
 
 .item h3 {

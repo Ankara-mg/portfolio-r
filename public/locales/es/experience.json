@@ -7,27 +7,27 @@
     "position": "Desarrollo Fullstack",
     "company": "Educ.ar Sociedad del Estado",
     "date": "Abril 2023 - Actualidad",
-    "description": "descripcion educar"
+    "description": "Contribuí al desarrollo de projectos web y Android, colaborando con un equipo estrecho y ágil para construir y mantener aplicaciones. Resolví problemas técnicos y me adapté a nuevas tecnologías y buenas prácticas."
   },
   "henryta": {
     "type": "Práctica",
     "position": "Teaching Assistant",
     "company": "SoyHenry",
     "date": "Julio 2022 - Agosto 2022",
-    "description": "descripcion henry"
+    "description": "Colaboré con otro miembro del equipo, asistiendo a nuevos estudiantes a integrarse en el grupo de estudio y guiándolos a través de sus primeros pasos de la cursada. Coordinamos con el equipo para apoyar su integración, ayudando a resolver ejercicios, y promoviendo la colaboración para generar un ambiente de aprendizaje positivo."
   },
   "unlam": {
     "type": "Carrera",
     "name": "Ingeniería en Informática",
     "institute": "Universidad Nacional de La Matanza",
     "date": "2016 - Actualidad",
-    "description": "descripcion unlam"
+    "description": "Completé materias de matemática, física, química, y programación en C/C++ y Java. Adquirí experiencia práctica usando AutoCAD para dibujo técnico y resolución de problemas. Desarrollé fuertes habilidades analíticas y la habilidad de colaborar de forma eficaz en proyectos."
   },
   "henry": {
     "type": "Bootcamp",
     "name": "Desarrollo Web",
     "institute": "SoyHenry Bootcamp",
     "date": "Mayo 2022 - Septiembre 2022",
-    "description": "descripcion henry bootcamp"
+    "description": "Completé un bootcamp de desarrollo Full-Stack usando el stack PERN (PostgreSQL, Express.js, React, Node.js), con dos proyectos finales (individual y grupal) enfocados en construir aplicaciones web. Adquirí experiencia en desarrollo front end y back end, integración con API, y gestión de bases de datos."
   }
 }
