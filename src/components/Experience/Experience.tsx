@@ -6,7 +6,7 @@ const Experience = () => {
   const { t } = useTranslation('experience');
 
   return (
-    <div className={style.background}>
+    <div className={style.background} id='experience'>
       <div style={{ textAlign: "center" }}>
         <h1>{t('pageTitle')}</h1>
       </div>
