@@ -38,9 +38,9 @@ const Landing = () => {
           Full Stack Developer
 
           <div className={styles.bottom}>
-            {t('projects')}
-            <Link to='#projects' smooth>
-              <img src="/assets/images/arrows.png" alt={t('projects')} className={styles.iconArrow} />
+            {t('nextLink')}
+            <Link to='#about' smooth>
+              <img src="/assets/images/arrows.png" alt="jump to next section" className={styles.iconArrow} />
             </Link>
           </div>
 
